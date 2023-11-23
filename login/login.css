@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursive;
+}
+body{
+    background: url(../img/Group\ 18.svg) no-repeat;
+    background-size: cover;
+}
+            /*     cabecalho     */ 
+.logo {
+    margin: 30px 600px 0px;
+}
+.marca{
+    margin-left: 575px;
+    color: #fff;
+}
+.marca h1{
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+         /*  textos */
+.centro{
+    display: flex;
+}
+         /* Parte 1*/
+.textos{
+     width: 700px;
+}
+.textos h1{
+    color: #fff;
+    font-size: 70px;
+    width: 400px;
+    margin-left: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textos p{
+    color: #fff;
+    font-size: 40px;
+    width: 540px;
+    margin-left: 30px;
+    font-family: Roboto;
+}
+        /* Parte 2 */
+.login{
+    margin-top: 10px;
+    width: 770px;
+    height: 350px;
+}
+.login img{
+    width: 35px;
+    height: 35px;
+}
+.login input[type=text]{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #fff;
+}
+.login input[type=password]{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #fff;
+}
+.login ::placeholder{
+    color: #fff;
+}
+.barra{
+    background: #fff;
+    width: 550px;
+    height: 2px;
+}
+.email{
+    margin-top: 60px;
+}
+.senha{
+    margin-top: 50px;
+}
+.link a{
+    margin-left:  115px;
+    margin: 0 auto;
+}
+button{
+    margin: 50px 0px  0px 90px;
+    border-radius: 28px;
+    height: 45px;
+    width: 364px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #F27706;
+    font-size: 25px;
+}
+
+/* Esquecer senha */
+.esquecer{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 60px;
+    margin-left: 310px;
+    font-size: 20px;
+}
+
+/* Criar conta */
+
+.conta{
+    background-color: rgba(0, 0, 0, 0.367);
+    width: 350px;
+    height: 117px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    z-index: 1;
+}
+.conta h2{
+    margin-top: 15px;
+    margin-left: 25px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+}
+.conta h1{
+    margin-left: 85px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+}
+.conta a{
+    text-decoration: none;
+    color: #fff;
+}
+/* parte reponsividade */
+/* tablet */
+@media (max-width: 720px) {
+    body{
+        background: url(../img/pizza_comeco.svg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .logo {
+        margin: 30px 20px 0px 265px;
+    }
+    .marca{
+        margin-left: 230px;
+    }
+    .textos{
+        width: 400px;
+        margin-right: 2px;
+   }
+   .textos h1{
+       font-size: 40px;
+       width: 200px;
+   }
+   .textos p{
+    font-size: 30px;
+    width: 340px;
+    }
+    .login{
+        margin-top: -30px;
+        width: 370px;
+        height: 350px;
+    }
+    .login img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 30px;
+    }
+    .login input[type=text]{
+        font-size: 21px;
+        position: relative;
+        left: 30px;
+        
+    }
+    .login input[type=password]{
+        font-size: 21px;
+        position: relative;
+        left: 30px;
+    }
+    .barra{
+        width: 270px;
+        height: 2px;
+    }
+    button{
+        margin: 50px 0px  0px 20px;
+        border-radius: 8px;
+        height: 40px;
+        width: 244px;
+        font-size: 25px;
+    }
+    
+    /* Esquecer senha */
+    .esquecer{
+        margin-top: 60px;
+        margin-left: 130px;
+        font-size: 17px;
+    }
+    .conta{
+        width: 270px;
+        height: 157px;
+    }
+    .conta h2{
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .conta h1{
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    
+    
+}
+/* celular */
+@media (max-width: 400px) {
+    body{
+        background: url(../img/pizza_comeco.svg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .logo {
+        margin: 30px 20px 0px 45px;
+    }
+    .logo img{
+        width: 110px;
+    }
+    .marca{
+        left: -50px;
+        top: -80px;
+        position: relative;
+    }
+    .marca h1{
+        font-size: 30px;
+    }
+    .textos{
+        width: 400px;
+        position: relative;
+        top: -20px;
+   }
+   .textos h1{
+       font-size: 33px;
+       width: 200px;
+   }
+   .textos p{
+    font-size: 20px;
+    width: 340px;
+    }
+    .senha{
+         margin-top: 0;
+    }
+    .login{
+        width: 370px;
+        height: 350px;
+        position: relative;
+        left: -310px;
+        top: 100px;
+    }
+    .login img{
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 30px;
+    }
+    .login input[type=text]{
+        font-size: 23px;
+        position: relative;
+        left: 30px;
+        
+    }
+    .login input[type=password]{
+        font-size: 23px;
+        position: relative;
+        left: 30px;
+    }
+    button{
+        margin: 30px 0px  0px 0px;
+        border-radius: 8px;
+        height: 60px;
+        width: 264px;
+        font-size: 25px;
+    }
+    .conta{
+        position: relative;
+        top: 120px;
+        width: 310px;
+        height: 110px;
+    }
+    .conta h2{
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    .conta h1{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    
+    
+}

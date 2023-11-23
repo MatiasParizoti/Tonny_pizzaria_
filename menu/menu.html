@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./menu.css">
+    <!-- Comfortta -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Menu</title>
+
+    <!-- LINKS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="pesquisa">
+                <h1>Home</h1>
+                <h2>Bom dia,Celso</h2>
+                <div class="buscar">
+                    <input type="text" name="pesquisa" placeholder="Buscar algo para matar a minha fome" required>
+                    <i class='bx bx-search-alt-2'></i>
+                </div>
+            </div>
+            <div class="perfil">
+                <img src="../img/Carinha.png" alt="">
+                <h2>Categorias</h2>
+                <div class="categorias">
+                    <div class="emoji"><a href=""><button><img src="../img/logo.png" alt=""></button></a></div>
+                    <div class="emoji"><a href=""><button><img src="../img/_bebida.png" alt=""></button></a></div>
+                    <div class="emoji"><a href=""><button><img src="../img/_melancia.png" alt=""></button></a></div>
+                    <div class="emoji"><a href=""><button><img src="../img/_pizza.png" alt=""></button></a></div>
+                    <div class="emoji"><a href=""><button><img src="../img/_ice_cream.png" alt=""></button></a></div>
+                    <div class="emoji"><a href=""><button><img src="../img/_sorvetinho.png" alt=""></button></a></div>
+                </div>
+            </div>
+        </header>
+        <div  class="cardapio"> <!-- cardapio -->
+            <h1>Minhas pizzas favoritas</h1>
+            <div class="opcoes">
+
+                <!-- primeira pizza -->
+                <a style="text-decoration: none;" href="../comentario/comentario.html">
+                    <div class="pizza1">
+                        <div class="dinheiro">
+                            <p>R$ 16,00</p>
+                        </div>
+                        <div class="descricao">
+                            <p> Pizza de calabresa com queijo</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- segunda pizza -->
+                <a style="text-decoration: none;" href="../comentario/comentario.html">
+                    <div class="pizza2">
+                        <div class="dinheiro">
+                            <p>R$ 19,00</p>
+                        </div>
+                        <div class="descricao">
+                            <p> Pizza de peperoni com queijo</p>
+                        </div>
+                    </div>
+                </a>
+
+                
+
+                <!-- terceira pizza -->
+                <a style="text-decoration: none;" href="../comentario/comentario.html">
+                    <div class="pizza3">
+                        <div class="dinheiro">
+                            <p>R$ 23,00</p>
+                        </div>
+                        <div class="descricao">
+                            <p> Pizza Portuguesa com borda recheada</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+                
+                
+        </div> <!-- fim do cardápio -->
+
+        <!-- favoritos -->
+        <div  class="favorito">
+            <h1>Recomendados para você !!!</h1>
+
+            <!-- Slide 01 -->
+
+            <div  id="carouselExampleIndicators" class=" slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="../img/_Exemplo3.png" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../img/_Exemplo1.png" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../img/_Exemplo2.png" alt="Terceiro Slide">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Slide 02 -->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="../img/_Exemplo1.png" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../img/_Exemplo2.png" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="../img/_Exemplo3.png" alt="Terceiro Slide">
+                    </div>
+                </div>
+
+            </div>  
+
+
+        </div> <!-- fim dos favoritos -->
+                <!-- parte das bebidas -->
+        <div class="bebidas">
+                <h1>Bebidas</h1>
+                <div class="enquado">
+                    <div class="bebida-itens">
+                        <img src="../img/coca-cola.png" alt="">
+                        <div class="conteudo">
+                            <h2>Coca-cola 2L</h2>
+                            <p>Refrigerante Garrafa 3l
+                                Embalagem Econômica
+                            </p>
+                        </div>
+                        <div class="preco">
+                            <p>R$ 14,99</p>
+                        </div>
+
+                    </div>
+                    <div class="bebida-itens direita">
+                        <img src="../img/cerveja.png" alt="">
+                        <div class="conteudo">
+                            <h2>Heineken</h2>
+                            <p>Refrigerante Garrafa 3l
+                                Embalagem Econômica
+                            </p>
+                        </div>
+                        <div class="preco">
+                            <p>R$ 14,99</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- fim das bebadas -->
+                <!-- parte final -->
+                <div class="rodape">
+                    <div class="modulos">
+                        <div class="menu first">
+                           <img src="../img/user.png" alt="">
+                            <h2>Meu Perfil</h2>
+                        </div>
+                        <div class="menu beer">
+                            <img src="../img/Beer.png" alt="">
+                            <h2>Bebidas</h2>
+                        </div>
+                        <div class="menu  cupcake">
+                            <img src="../img/Cupcake.png" alt="">
+                            <h2>sobremesa</h2>
+                        </div>
+                        <div class="menu config">
+                            <img src="../img/config.png" alt="">
+                            <h2>Configurações</h2>
+                        </div>
+                    </div>
+                </div>
+                <!-- fim da parte final -->
+                
+        </div>
+
+    </div>
+    <!-- SCRIPTS BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

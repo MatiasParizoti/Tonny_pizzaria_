@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursive;
+}
+body{
+    background: url(../img/PizzaConta.png) no-repeat;
+    background-size: cover;
+}
+.seta{
+    display: flex;
+}
+.seta i{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size:105px ;
+}
+.seta h1{
+    margin-top: 60px;
+    margin-left: 40px;
+    color: #fff;
+    font-family: 'Comfortaa', sans-serif;
+}
+.face img{
+    width: 170px;
+    height: 160px;
+    z-index: 1;
+    margin-left: 370px;
+    margin-top: -190px;
+}
+.foto2 img{
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    margin-left: 470px;
+    margin-top: -210px;
+}
+.texto{
+    margin-left: 330px;
+}
+.texto h1{
+    font-family: 'Comfortaa', sans-serif;
+}
+.texto p{
+    margin-left: 75px;
+}
+.principal{
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 320px;
+    width: 950px;
+    height: 550px;
+    border-radius: 8px;
+}
+.principal p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main{
+    margin-left: 170px;
+    border: 3px solid #F27706;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: 600px;
+}
+.main h1{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro1 h1{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro1{
+    width: 600px;
+    padding-top: 30px;
+    margin-top: 5px;
+    margin-left: 170px;
+    border: 3px solid #F27706;
+    padding: 5px 10px;
+    border-radius: 20px;
+ }
+.link{
+    width: 600px;
+    height: 80px;
+    background-color: #F93030;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 170px;
+}
+.dividir{
+    display: flex;
+}
+.maps{
+  margin-top: 15px;
+}
+.perfil img{
+    width:  70px;
+    height: 60px;
+}
+.tudo{
+    margin-left: 30px;
+}
+.link img{
+    margin-left: 100px;
+}
+button{
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+/* parte da responsividade */
+/* tablet */
+@media (max-width: 720px) {
+    body{
+        height: 100vh;
+    }
+    .seta i{
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size:85px ;
+    }
+    .seta h1{
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+    .face img{
+        width: 140px;
+        height: 130px;
+        margin-left: 260px;
+        margin-top: -100px !important;
+    }
+    .foto2 img{
+        width: 60px;
+        height: 60px;
+        margin-left: 350px;
+        margin-top: -210px;
+    }
+    .texto{
+        margin-left: 250px;
+    }
+    .texto h1{
+        font-size: 25px;
+    }
+    .texto p{
+        margin-left: 60px;
+    }
+    .principal{
+        margin-top: 70px;
+        margin-left: 50px;
+        width: 630px;
+        height: 550px;
+    }
+    .principal p{
+        font-size: 18px;     
+    }
+    .main{
+        margin-left: 140px;
+        width: 400px;
+    }
+    .main h1{
+        font-size: 23px;
+       position: relative;
+       left: 5px;
+    }
+    .cadastro1 h1{
+        font-size: 23px;
+       position: relative;
+       left: 5px;
+    }
+    .cadastro1{
+        margin-left: 140px;
+        width: 400px;
+     }
+    .link{
+        width: 500px;
+        height: 80px;
+        margin-top: 40px;
+        margin-left: 80px;
+    }  
+}
+/* celular */
+@media (max-width: 400px) {
+    body{
+        height: 10vh;
+    }
+    .seta i{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size:65px ;
+    }
+    .seta h1{
+        margin-top: 30px;
+        margin-left: -10px;
+        font-size: 25px;
+    }
+    .face img{
+        width: 140px;
+        height: 130px;
+        margin-left: 140px;
+        margin-top: -90px !important;
+    }
+    .foto2 img{
+        width: 60px;
+        height: 60px;
+        margin-left: 230px;
+        margin-top: -210px;
+    }
+    .texto{
+        margin-left: 115px;
+    }
+    .principal{
+        margin-top: 120px;
+        margin-left: 0px;
+        width: 405px;
+        height: 550px;
+    }
+    .main{
+        margin-left: 20px;
+        width: 360px;
+    }
+    .main h1{
+        font-size: 20px;
+    }
+    .cadastro1{
+        margin-left: 20px;
+        width: 360px;
+     }
+    .cadastro1 h1{
+        font-size: 20px;
+    }
+    .link{
+        width: 360px;
+        height: 80px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .link img{
+        left: -50px;
+        top: 20px;
+        position: relative;
+    } 
+    .link a{
+        position: relative;
+        left: 70px;
+        top: -40px;
+        font-size: 20px;
+    }
+}

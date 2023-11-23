@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursive;
+}
+body{
+    background: url(../img/pizza_comentario.png) no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+}
+.seta i{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size:105px ;
+}
+.principal{
+    width: 750px;
+    height: 715px;
+    background: #fff;
+    margin-top: 20px;
+    border-radius: 18px;
+    margin-left: 620px;
+    float: right;
+}
+
+.descricao{
+    display: flex;
+    animation: fadeY 1.5s ease-in-out forwards;
+}
+.descricao h1{
+    margin-left:30px;
+    margin-top: 30px;
+    width: 500px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.60);
+}
+.descricao button{
+    border: none;
+    background: none;
+    font-size: 58px;
+    margin-left: 120px;
+    animation: fadeY 2.5s ease-in-out 1.2ms forwards;
+}
+@keyframes fadeY {
+    
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to{
+        transform: translateY(0);
+        opacity: 100;
+    }
+}
+.primeiro{
+    font-family: 'Ubuntu', sans-serif;
+    color: #23CB98;
+}
+.primeiro h1{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: 'Comfortaa', sans-serif;
+    animation: fadeY 1.7s ease-in-out forwards;
+}
+.primeiro p{
+    font-size: 20px;
+    width: 627px;
+    margin-left: 30px;
+    margin-top: 10px;
+    animation: fadeY 2.3s ease-in-out 1.2ms forwards;
+}
+.estrelas{
+    margin-top: 10px;
+    margin-left: 25px;
+    animation: fadeY 2.1s ease-in-out forwards;
+}
+.coments{
+    display: flex;
+}
+.coments img{
+    margin-top: 10px;
+    margin-left: 30px;
+    animation: fadeY 1.5s ease-in-out forwards;
+
+}
+.coments h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    margin-left: 45px;
+    margin-top: 10px;
+    animation: fadeY 2.0s ease-in-out 1.2ms forwards;
+
+}
+/* Parte mini comentarios */
+
+.C{
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 720px;
+    height:120px;
+    border-radius: 8px;
+    animation: fadeY 2.1s ease-in-out forwards;
+}
+.D{
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 720px;
+    height:120px;
+    border-radius: 8px;
+    animation: fadeY 2.5s ease-in-out forwards;
+
+}
+.enquadro{
+    display: flex;
+}
+.textinho{
+    margin-top: 07px;
+    margin-left: 20px;
+    width: 500px;
+    color: #AEA6A6;
+}
+.Maria{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.345);
+}
+.info{
+    width: 170px;
+    height: 10px;
+    font-size: 08px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #AEA6A6;
+}
+.estrelinha{
+    margin-top:10px ;
+    margin-left: 340px;
+}
+.estrelinhas{
+    margin-top:10px ;
+    margin-left: 295px;
+}
+/* parte da responsividade */
+/* tablet */
+@media (max-width: 720px) {
+    body{
+        height: 10vh;
+    }
+    .seta i{
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size:95px ;
+    }
+    .principal{
+        width: 710px;
+        height: 715px;
+        top: 320px;
+        left: -725px;
+        position: relative;
+    }
+    .descricao h1{
+        margin-top: 10px;
+    }
+    .descricao button{
+        font-size: 58px;
+        margin-left: 50px;
+    }
+    /* Parte mini comentarios */
+.C{
+    width: 690px;
+}
+.D{
+    width: 690px;
+}
+.estrelinha{
+    margin-left: 310px;
+}
+.estrelinhas{
+    margin-left: 265px;
+}
+}
+/* celular */
+@media (max-width: 400px) {
+    .seta i{
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size:75px;
+    }
+    .principal{
+        width: 410px;
+        height: 630px;
+        top: 205px;
+        left: -700px;
+        position: relative;
+    }
+    .descricao h1{
+        margin-top: 15px;
+        font-size: 27px;
+    }
+    .descricao button{
+        font-size: 48px;
+        left: -55px;
+        position: relative;
+    }
+    .primeiro h1{
+        font-size: 25px;
+    }
+    .primeiro p{
+        font-size: 15px;
+        width: 337px;
+    }
+    .coments img{
+        width: 40px;
+    }
+    .coments h1{
+       font-size: 27px;
+       margin-left: 15px;
+    }
+    /* Parte mini comentarios */
+    .C{
+        width: 375px;
+    }
+    .D{
+        width: 375px;
+    }
+    .enquadro h1{
+        width: 160px;
+        font-size: 15px;
+    }
+    .textinho{
+        top: -3px;
+        margin-left: 15px;
+        font-size: 12px;
+        width: 340px;
+        position: relative;
+
+    }
+    .estrelinha{
+        height: 30px;
+        top: 10px;
+        left: -270px;
+        position: relative;
+        display: flex;
+    }
+    .estrelinhas{
+        height: 30px;
+        top: 10px;
+        left: -250px;
+        position: relative;
+        display: flex;
+    }
+
+}

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursive;
+}
+body{
+    background: url(../img/PizzaConta.png) no-repeat;
+    background-size: cover;
+}
+.seta{
+    display: flex;
+}
+.seta i{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size:105px ;
+}
+.seta h1{
+    margin-top: 60px;
+    margin-left: 40px;
+    color: #fff;
+}
+.face img{
+    width: 160px;
+    height: 160px;
+    z-index: 1;
+    margin-left: 370px;
+    margin-top: -190px;
+}
+.foto2 img{
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+    margin-left: 470px;
+    margin-top: -210px;
+}
+.principal{
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: 320px;
+    width: 950px;
+    height: 550px;
+    border-radius: 8px;
+}
+.principal p{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.main{
+    margin-left: 40px;
+}
+.main input[type=text]{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro1 input[type=text]{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro1 input[type=password]{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro2 input[type=text]{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro2 input[type=password]{
+    margin-bottom: 5px;
+    border: none;
+    background: none;
+    font-size: 25px;
+    outline: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro1{
+    padding-top: 30px;
+    margin-left: 40px;
+ }
+ .cadastro2{
+     padding-top: 40px;
+     margin-left: 40px;
+  }
+.barra{
+    background: #C4C4C4;
+    width: 800px;
+    height: 3px;
+}
+.barras{
+    background: #C4C4C4;
+    width: 450px;
+    height: 3px;
+}
+.B{
+ display: flex;
+}
+.B button{
+    border: none;
+    background: none;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+.link{
+    width: 300px;
+    height: 150px;
+    background-color: #199570;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+/* parte da responsividade */
+/* tablet */
+@media (max-width: 720px) {
+    body{
+        height: 100vh;
+    }
+    .seta i{
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size:85px ;
+    }
+    .seta h1{
+        margin-top: 40px;
+        margin-left: -10px;
+    }
+    .face img{
+        width: 140px;
+        height: 130px;
+        margin-left: 260px;
+        margin-top: -100px !important;
+    }
+    .foto2 img{
+        width: 60px;
+        height: 60px;
+        margin-left: 350px;
+        margin-top: -210px;
+    }
+    .principal{
+        margin-top: 70px;
+        margin-left: 40px;
+        width: 630px;
+        height: 550px;
+    }
+    .principal p{
+        font-size: 18px;
+    }
+    .main{
+        margin-left: 25px;
+    }
+    .main input[type=text]{
+        position: relative;
+        left: 20px;
+        top: -5px;
+    }
+    .cadastro1 input[type=text]{
+        position: relative;
+        left: 20px;
+        top: -5px;
+    }
+    .cadastro1 input[type=password]{
+        position: relative;
+        left: 20px;
+        top: -5px;
+    }
+    .cadastro2 input[type=password]{
+        position: relative;
+        left: 20px;
+        top: -5px;
+    }
+    .cadastro2 input[type=text]{
+        position: relative;
+        left: 20px;
+        top: -5px;
+    }
+    .cadastro1{
+        padding-top: 30px;
+        margin-left: 25px;
+     }
+     .cadastro2{
+         padding-top: 30px;
+         margin-left: 40px;
+      }
+    .barra{
+        width: 560px;
+    }
+    .barras{
+        width: 290px;
+    }
+    .B{
+        position: relative;
+        left: -20px;
+    }
+    .B button{
+        margin-left: 45px;
+    }
+    .link{
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+}
+/* celular */
+@media (max-width: 400px) {
+    body{
+        height: 10vh;
+    }
+    .seta i{
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size:65px ;
+    }
+    .seta h1{
+        margin-top: 25px;
+        margin-left: -10px;
+        font-size: 25px;
+    }
+    .face img{
+        width: 140px;
+        height: 130px;
+        margin-left: 140px;
+        margin-top: -90px !important;
+    }
+    .foto2 img{
+        width: 60px;
+        height: 60px;
+        margin-left: 230px;
+        margin-top: -210px;
+    }
+    .principal{
+        margin-top: 120px;
+        margin-left: 0px;
+        width: 405px;
+        height: 550px;
+    }
+    .principal p{
+        font-size: 17px;
+    }
+    .barra{
+        width: 335px;
+    }
+    .barras{
+        width: 337px;
+    }
+    .B{
+        width:700px !important;
+       
+    }
+    .B button{
+        top: -35px;
+        left: 45px;
+        position: relative;
+        font-size: 23px;
+    }
+    .link{
+        height:70px !important;
+        top: 180px;
+        left: -340px;
+        position: relative;
+    }
+}

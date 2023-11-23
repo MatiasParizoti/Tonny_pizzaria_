@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Confortaa', cursive;
+}
+body{
+    background: url(../img/Group\ 18.svg) no-repeat;
+    background-size: cover;
+}
+            /*     cabecalho     */ 
+.logo {
+    margin: 30px 650px 0px;
+}
+.marca{
+    margin-left: 615px;
+    color: #fff;
+}
+.marca h1{
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+            /*     Textos    */ 
+.textos{
+    margin-top: 60px;
+}
+.textos h1{
+    color: #fff;
+    font-size: 60px;
+    width: 435px;
+    margin-left: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textos p{
+    color: #fff;
+    font-size: 35px;
+    width: 900px;
+    margin-left: 30px;
+    font-family: Roboto;
+}
+         /* Link */
+.link a{
+      margin-left:  115px;
+      margin: 0 auto;
+}
+
+button{
+    margin: 170px 0px  0px 560px;
+    border-radius: 18px;
+    height: 65px;
+    width: 334px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+      color: #F27706;
+}
+
+/* parte responsividade */
+/* tablet */
+
+@media (max-width: 720px) {
+    body{
+        background: url(../img/pizza_comeco.svg) no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .logo {
+        margin: 30px 20px 0px 265px;
+    }
+    .marca{
+        margin-left: 230px;
+        color: #fff;
+    }
+    .textos h1{
+        margin-top: 80px;
+        font-size: 40px;
+        width: 305px;  
+    }
+    .textos p{
+        color: #fff;
+        font-size: 23px;
+        width: 600px;
+    }
+    button{
+        margin: 170px 0px  0px 180px;
+        border-radius: 18px;
+        height: 65px;
+        width: 334px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    
+}
+/* para celular */
+@media (max-width: 400px) {
+    body{
+        background: url(../img/pizza_comeco.svg) no-repeat;
+        background-size: cover;
+        height: 93.7vh;
+    }
+    .logo {
+        margin: 30px  0;
+        position: relative;
+        left: 40px;
+    }
+    .logo img{
+        width: 110px;
+    }
+    .marca h1{
+        color: #fff;
+        position: relative;
+        top: -110px;
+        left: -70px;
+        font-size: 31px;
+    }
+    .textos h1{
+        position: relative;
+        top: -10px;
+        font-size: 35px;
+        width: 205px;  
+    }
+    .textos p{
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        top: -10px;
+        width: 290px;
+    }
+    button{
+        margin: 100px 0px  0px 85px;
+        border-radius: 18px;
+        height: 55px;
+        width: 234px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: rgb(255, 255, 255);
+        font-size: 25px;
+    }
+    
+}
